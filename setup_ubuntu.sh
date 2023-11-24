@@ -1,5 +1,28 @@
 #!/bin/sh -e
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+sudo apt-get install libpng-dev \
+                libfreetype6 \
+				libfreetype6-dev \
+				python3-dev \
+				python3-simplejson \
+				python3-pyqt4 \
+				python3-numpy \
+				python3-scipy \
+				python3-matplotlib \
+				libgeos-dev \
+				python-shapely \
+				python-pip \
+				libspatialindex-dev \
+				python3-tk \
+				python3-shapely \
+				python3-rtree \
+				python3-svg.path
+
+=======
+>>>>>>> main
 # Ubuntu packages
 
 sudo apt-get install -y \
@@ -49,3 +72,7 @@ sudo -H python3 -m pip install --upgrade \
 	testresources
 
 sudo -H easy_install -U distribute
+<<<<<<< HEAD
+=======
+>>>>>>> Beta
+>>>>>>> main
