@@ -1,6 +1,8 @@
 #!/bin/sh -e
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 sudo apt-get install libpng-dev \
                 libfreetype6 \
 				libfreetype6-dev \
@@ -20,6 +22,7 @@ sudo apt-get install libpng-dev \
 				python3-svg.path
 
 =======
+>>>>>>> main
 # Ubuntu packages
 
 sudo apt-get install -y \
@@ -69,4 +72,7 @@ sudo -H python3 -m pip install --upgrade \
 	testresources
 
 sudo -H easy_install -U distribute
+<<<<<<< HEAD
+=======
 >>>>>>> Beta
+>>>>>>> main
